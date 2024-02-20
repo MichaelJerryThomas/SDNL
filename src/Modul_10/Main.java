@@ -15,13 +15,13 @@ public class Main {
         for (int i = 0; i < theGraph.getnVerts(); i++) {
             System.out.println(theGraph.displayVertex(i));
         }
-        theGraph.addArrowedEdge(0, 1);
-        theGraph.addArrowedEdge(0, 2);
-        theGraph.addArrowedEdge(1, 3);
-        theGraph.addArrowedEdge(1, 4);
-        theGraph.addArrowedEdge(1, 5);
-        theGraph.addArrowedEdge(2, 3);
-        theGraph.addArrowedEdge(3, 4);
+        theGraph.addArrowedEdge(0, 1);//
+        theGraph.addArrowedEdge(0, 2);//
+        theGraph.addArrowedEdge(1, 3);///
+        theGraph.addArrowedEdge(1, 4);//
+        theGraph.addArrowedEdge(1, 5);//
+        theGraph.addArrowedEdge(2, 3);//
+        theGraph.addArrowedEdge(3, 4);//
         theGraph.addArrowedEdge(4, 6);
 
         System.out.println("Matrik adjacency");
